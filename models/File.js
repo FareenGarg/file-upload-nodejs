@@ -1,3 +1,8 @@
+// This file:
+
+//Defines the structure (schema) of the data you want to store in MongoDB
+//Creates a Model that you use to save and read data
+
 const mongoose = require("mongoose");
 
 const fileSchema = new mongoose.Schema(
@@ -12,10 +17,6 @@ const fileSchema = new mongoose.Schema(
             type : String,
         },
         tags : 
-        {
-            type : String,
-        },
-        imageUrl : 
         {
             type : String,
         },
